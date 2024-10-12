@@ -122,3 +122,10 @@ input::-webkit-inner-spin-button {
     opacity: 0.8;
     color: purple;
 }
+
+#cabecalho1 {
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    margin-top: 230px;
+}
