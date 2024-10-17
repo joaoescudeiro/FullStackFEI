@@ -1,0 +1,39 @@
+body{
+    background-color: lightsteelblue;
+}
+
+#titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    margin: 30px;
+}
+
+#canvas{
+    display: flex;
+    justify-content: center;
+    background-color: steelblue;
+    margin: auto;
+    margin-top: 9%;
+    border: blue 2px solid;
+}
+
+.linkcabecalho {
+    text-decoration: none;
+    transition: 0.3s;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.linkcabecalho:hover {
+    opacity: 0.8;
+    color: purple;
+}
+
+#cabecalho1 {
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    margin-top: 16.5%;
+}
