@@ -104,3 +104,25 @@ header {
     margin-bottom: 1%;
 
 }
+
+#loginnome {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 17px;
+    position: absolute;
+    top: 27px;
+    left: 38px;
+}
+
+#bolinha {
+    font-size: 50px;
+    color: green;
+    position: absolute;
+    top: -6px;
+    left: 15px;
+}
+
+#statuslogin {
+    display: flex;
+    flex-direction: row;
+}

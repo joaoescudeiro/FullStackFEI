@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="estilologin.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <h2>Formulálio (método: get , action: /inicio)</h2>
+    <form action="/inicio" method="get">
+        <p>Nome: <input type="text" name="info"></p>
+        <input type="submit" value="Clique aqui!">
+    </form>
+
+    <h2>Fomulário (método: post, action: /inicio)</h2>
+    <form action="/inicio" method="post">
+        <p>Data: <input type="date" name="data"></p>
+        <input type="submit" value="Clique aqui!">
+    </form> -->
+
+    <div id="flexbox">
+        <h2 id="titulo">Fazer login</h2>
+        <form id="formulario" method="post" action="/logar">
+            <div class="rowbox">
+                <div id="dados">
+                    <p class="dados">Usuário: </p>
+                    <p class="dados">Senha: </p>
+                </div>
+                <div class="columnbox">
+                    <input class="inputs" type="text" name="usuario">
+                    <input class="inputs" type="text" name="senha">
+                </div>
+            </div>
+            <input id="botao" type="submit" value="Logar">
+        </form>
+        <div id="botoes">
+
+            <button id="botao1" onclick="window.location.href='Cadastro.html';">Cadastrar usuário</button>
+        </div>
+    </div>
+
+    <div id="cabecalho1">
+        <p class="cabecalho"><a class="linkcabecalho" href="../home.html">Home</a> | <a class="linkcabecalho"
+                href="../projects.html">Projetos</a></p>
+    </div>
+</body>
+
+</html>
