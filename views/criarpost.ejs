@@ -1,0 +1,33 @@
+<!-- views/create-post.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar post</title>
+    <link rel="stylesheet" href="estiloblog.css">
+</head>
+
+<body>
+
+    <form id="formulario" action="/criarpost" method="POST">
+        <div id="formcontent">
+            <h1 class="tituloblog">Criar novo post</h1>
+            <p class="tituloinput">Título</p>
+            <input class="inputtitulo" type="text" name="titulo" placeholder="Insira o título aqui" required>
+            <p class="tituloinput">Resumo</p>
+            <textarea class="inputresumo" name="resumo" placeholder="Insira o resumo aqui" required></textarea>
+            <p class="tituloinput">Conteúdo</p>
+            <textarea class="inputconteudo" name="conteudo" placeholder="Insira o conteúdo aqui" required></textarea>
+            <button id="btcriarpost" type="submit">Criar post</button>
+        </div>
+    </form>
+
+    <div id="cabecalho1">
+        <p class="cabecalho"><a class="linkcabecalho" href="../home.html">Home</a> | <a class="linkcabecalho"
+                href="../projects.html">Projetos</a></p>
+    </div>
+</body>
+
+</html>

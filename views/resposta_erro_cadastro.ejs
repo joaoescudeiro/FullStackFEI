@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link href="estilocadastro.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <h2>Formulálio (método: get , action: /inicio)</h2>
+    <form action="/inicio" method="get">
+        <p>Nome: <input type="text" name="info"></p>
+        <input type="submit" value="Clique aqui!">
+    </form>
+
+    <h2>Fomulário (método: post, action: /inicio)</h2>
+    <form action="/inicio" method="post">
+        <p>Data: <input type="date" name="data"></p>
+        <input type="submit" value="Clique aqui!">
+    </form> -->
+
+    <div id="flexboxerro">
+        <h2><%= resposta %></h2>    
+    </div>
+
+    <div id="flexboxerro2">
+        <h2 id="titulo">Cadastrar usuário</h2>
+        <form id="formulario" method="post" action="/cadastro">
+            <div class="rowbox">
+                <div id="dados">
+                    <p class="dados">Nome: </p>
+                    <p class="dados">Sobrenome: </p>
+                    <p class="dados">Nascimento: </p>
+                    <p class="dados">Usuário: </p>
+                    <p class="dados">Senha: </p>
+                </div>
+                <div class="columnbox">
+                    <input class="inputs" type="text" name="nome">
+                    <input class="inputs" type="text" name="sobrenome">
+                    <input class="inputs" type="date" name="nascimento">
+                    <input class="inputs" type="text" name="usuario">
+                    <input class="inputs" type="text" name="senha">
+                </div>
+            </div>
+            <input id="botao" type="submit" value="Cadastrar">
+        </form>
+
+        <div id="botoes">
+
+            <button id="botao1" onclick="window.location.href='Login.html';">Fazer login</button>
+        </div>
+    </div>
+
+    <div id="cabecalho1">
+        <p class="cabecalho"><a class="linkcabecalho" href="../home.html">Home</a> | <a class="linkcabecalho"
+                href="../projects.html">Projetos</a></p>
+    </div>
+</body>
+
+</html>
